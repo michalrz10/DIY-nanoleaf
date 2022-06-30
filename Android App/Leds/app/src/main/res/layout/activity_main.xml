@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="Ip" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setIp"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/gradient_list"
+                android:text="Set"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".70"
+                android:dividerPadding="50dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="power"
+                    android:background="@drawable/gradient_list"
+                    android:text="Power"
+                    android:layout_margin="2.5dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="16dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="eye"
+                    android:background="@drawable/gradient_list"
+                    android:text="Blue Eye"
+                    android:layout_margin="2.5dp"
+                    tools:layout_editor_absoluteX="153dp"
+                    tools:layout_editor_absoluteY="71dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="singleColor"
+                    android:background="@drawable/gradient_list"
+                    android:text="Single Color"
+                    android:layout_margin="2.5dp"
+                    tools:layout_editor_absoluteX="153dp"
+                    tools:layout_editor_absoluteY="71dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="random"
+                    android:background="@drawable/gradient_list"
+                    android:text="Random"
+                    android:layout_margin="2.5dp"
+                    tools:layout_editor_absoluteX="153dp"
+                    tools:layout_editor_absoluteY="71dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="randomSingle"
+                    android:background="@drawable/gradient_list"
+                    android:text="Random Single"
+                    android:layout_margin="2.5dp"
+                    tools:layout_editor_absoluteX="153dp"
+                    tools:layout_editor_absoluteY="71dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="smooth"
+                    android:background="@drawable/gradient_list"
+                    android:text="Smooth"
+                    android:layout_margin="2.5dp"
+                    tools:layout_editor_absoluteX="153dp"
+                    tools:layout_editor_absoluteY="71dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="smoothSingle"
+                    android:background="@drawable/gradient_list"
+                    android:text="Smooth Single"
+                    android:layout_margin="2.5dp"
+                    tools:layout_editor_absoluteX="153dp"
+                    tools:layout_editor_absoluteY="71dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="smoothHalf"
+                    android:background="@drawable/gradient_list"
+                    android:text="Smooth Half"
+                    android:layout_margin="2.5dp"
+                    tools:layout_editor_absoluteX="153dp"
+                    tools:layout_editor_absoluteY="71dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
