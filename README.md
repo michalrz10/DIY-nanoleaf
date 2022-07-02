@@ -19,7 +19,7 @@ Cover was printed in 2 layers of translusend pla. Later I glued thin paper to co
 ### <a href="Board project">Board</a> 
 ![](Img/Board.jpg)   
   
-## Proggrammed functionality
+## Programmed functionality
  - Turn on/off leds
  - Turn on/off build in led
  - Single color
