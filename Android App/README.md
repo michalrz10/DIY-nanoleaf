@@ -12,4 +12,4 @@
 Main view  
 ![](Video/AndroidApp.gif)  
 Dialog color picker  
-![](Img/ColorPicker.png)  
+<img src="Img/ColorPicker.png" width="600">
