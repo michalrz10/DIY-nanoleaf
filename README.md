@@ -1,4 +1,24 @@
 # DIY nanoleaf
+## Programmed functionality
+ - Turn on/off leds
+ - Turn on/off build in led
+ - Single color
+ - Random color on each segment every 5 seconds
+ - Single random color every 5 seconds
+ - Smooth change on each segment color
+ - Smooth change of single color
+ - Smooth change of pairs of segments
+ - Api to control each segment color. For exaplle changing color with music described in <a href="Pythonn App">Python app</a>  
+   
+  ![](Img/NanoleafDemo.gif)    
+  Blue eye  
+  <img src="Img/BoardCover.jpg" width="600">   
+  Music Api  
+  [![Watch the video](https://img.youtube.com/vi/PF79hWgrGx4/maxresdefault.jpg)](https://youtu.be/PF79hWgrGx4)  
+## Ways to controll
+ - Website
+ - <a href="Python App">Windows app</a>
+ - <a href="Android App">Android app</a>
 ## Case
 All the <a href="3D model">parts</a> were 3D printed with pla and connected with 1 cm spacers.  
 ![](Img/Full.jpg) 
@@ -18,16 +38,3 @@ Cover was printed in 2 layers of translusend pla. Later I glued thin paper to co
   
 ### <a href="Board project">Board</a> 
 ![](Img/Board.jpg)   
-  
-## Programmed functionality
- - Turn on/off leds
- - Turn on/off build in led
- - Single color
- - Random color on each segment every 5 seconds
- - Single random color every 5 seconds
- - Smooth change on each segment color
- - Smooth change of single color
- - Smooth change of pairs of segments
- - Api to control each segment color. For exaplle changing color with music described in <a href="Pythonn App">Python app</a>  
-   
-  <img src="Img/BoardCover.jpg" width="600"> 
